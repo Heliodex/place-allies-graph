@@ -1,0 +1,16 @@
+{
+  "name": "graph",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "cypher-tag": "^1.0.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "neo4j-driver": "^5.10.0",
+    "prettier": "^3.0.0"
+  }
+}
